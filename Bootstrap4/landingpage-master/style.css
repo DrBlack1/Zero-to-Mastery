@@ -1,0 +1,19 @@
+body {
+    background-image: url('./laptop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.buttonpos {
+    position: relative;
+    top: 350px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    top: 200px;
+}
