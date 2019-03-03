@@ -1,0 +1,66 @@
+<style>
+     
+html {
+         font-family: sans-serif;
+}
+     
+label {
+  display: block;
+  color: blue;
+}
+
+.floatBlock {
+  margin: 0 1.85em -1.5em 0;
+}
+
+.labelish {
+	color:blue;
+	margin: 0;
+}
+
+.mailingList {
+	border: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	break-before: always;
+	margin: 0 0 1em 0;
+}
+
+#mailingList, #name, #email {
+	margin: 0 0 2em 0;
+}
+     
+     
+.address {
+    margin: 0 0 0.3em 0;
+}
+
+
+</style>
+
+<p class="labelish">Name:</p>
+                    <label for="mailingList"> <input id="name" name="name" type="text" placeholder="Your name here" /> </label>
+<p class="labelish">Email Address:</p>
+                    <label for="mailingList"> <input id="email" name="email" type="text" placeholder="Your email address" />  </label>
+<p class="labelish">Postal Address:</p>
+                    <label for="address1"> <input id="address1" class="address" name="addToMailingList" type="text" placeholder="Address Line 1" />  </label>
+                    <label for="address2">  <input id="address2" class="address"name="addToMailingList" type="text" placeholder="Address Line 2" />  </label>
+                    <label for="address3"> <input id="address3" class="address" name="addToMailingList" type="text" placeholder="Address Line 3" />  </label>
+                    <label for="city">  <input id="city" class="address" name="addToMailingList" type="text" placeholder="City" />  </label>
+                    <label for="postcode"> <input id="postcode" class="address" name="addToMailingList" type="text" placeholder="Postcode" />  </label>
+<br>
+
+<p class="labelish">Add you to our mailing list?:</p>
+           <div id="mailingList" name="mailingList" class="mailingList"> 
+
+                <div id="addToMailingList" class="floatBlock">
+                    <label for="mailingList"> <input id="mailingList" name="addToMailingList" type="radio" value="Yes" /> Yes </label>
+                </div>
+
+                <div id="addToMailingList" class="floatBlock">
+                    <label for="mailingList"> <input id="mailingList" name="addToMailingList" type="radio" value="No" /> No </label>
+                </div>
+            </div>
+
+<input type="submit" place="Submit" name="submit" id="submit"></button>
