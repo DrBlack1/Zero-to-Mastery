@@ -20,9 +20,3 @@ function letPerson(person, fn) { // ++ tell it what data to user + function.
 }
 
 letPerson({level: 'user', name: 'Sally', sing})
-
-
-const multiplyBy
-
-multiplyTwo
-multiplyByTen
