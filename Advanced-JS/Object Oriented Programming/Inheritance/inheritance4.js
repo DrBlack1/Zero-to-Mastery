@@ -1,11 +1,11 @@
 class Character {
-    #age = 54
+    age = 54
     constructor(name, weapon) {
         this.name = name;
         this.weapon = weapon;
     }
     attack() {
-        return 'attack with ' + this.#age;
+        return 'attack with ' + this.age;
     }
 }
 
