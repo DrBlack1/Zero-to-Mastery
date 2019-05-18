@@ -4,7 +4,7 @@
 
 function reverse(str) {
     //check input
-    if (!str || str.length < 2 || typeof !== 'string') {
+    if (!str || str.length < 2 || 'typeof' !== 'string') {
         return 'hmm that is not good';
     }
 
