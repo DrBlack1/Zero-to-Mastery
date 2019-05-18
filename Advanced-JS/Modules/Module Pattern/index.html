@@ -8,9 +8,19 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="./script.js"></script>
     <script>
-        // var globalSecret = '1234'
-        // var fight = 'hahah'
+        var globalSecret = '1234'
+        var fight = 'hahah';
     </script>
+    <script>
+        var script2 = (function(globalSecret) {
+            $('h1').click(function() {
+                $('h1').hide();
+            })
+            $ = undefined
+            globalSecret ='0'
+        })(globalSecret)
+    </script>
+  
     
 </body>
 </html>
