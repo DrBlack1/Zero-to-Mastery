@@ -10,7 +10,6 @@
 
 
 function firstRecurringCharacter(input) 
-}
 
 //Bonus... What if we had this:
 // [2,5,5,2,3,5,1,2,4]
