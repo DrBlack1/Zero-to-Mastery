@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>HELLOOOOOOOOO</h1>
+    <script src="./script.js"></script>
+    <script>
+        var globalSecret = '1234'
+        var fight = 'hahah';
+    </script>
+    <script>
+        var script2 = (function(globalSecret) {
+            $('h1').click(function() {
+                $('h1').hide();
+            })
+            $ = undefined
+            globalSecret ='0'
+        })(globalSecret)
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+</body>
+</html>
