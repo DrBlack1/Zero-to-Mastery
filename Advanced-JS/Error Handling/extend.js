@@ -1,18 +1,18 @@
-class AuthenticationError extend Error {
+class AuthenticationError extends Error {
     constructor(message) {
         super(message)
         this.name = 'AuthenticationError'
         this.favouriteSnack = 'grapes'
     }
 }
-class DatabaseError extend Error {
+class DatabaseError extends Error {
     constructor(message) {
         super(message)
         this.name = 'DatabaseError'
         this.message = 'grapes'
     }
 }
-class PermissionError extend Error {
+class PermissionError extends Error {
     constructor(message) {
         super(message)
         this.name = 'PermissionError'
