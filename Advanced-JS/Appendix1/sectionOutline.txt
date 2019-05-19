@@ -52,10 +52,10 @@ Object
 
 JAVASCRIPT LOOPING
 -------------------
-<!-- for -->
-<!-- while -->
-<!-- do -->
-<!-- forEach (new in ECMAScript 5) -->
+for
+while
+do
+forEach (new in ECMAScript 5)
 
 
 JAVASCRIPT KEYWORDS
@@ -69,7 +69,8 @@ debugger
 default
 delete
 do
-elseexport
+else
+export
 extends
 finally
 for
