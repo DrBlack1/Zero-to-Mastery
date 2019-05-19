@@ -10,13 +10,13 @@ JAVASCRIPT TYPES
 
 JAVASCRIPT COMPARISONS
 -----------------------
+
 !==
 ===
 >=
 <=
 >
 <
-
 
 JAVASCRIPT VARIABLES
 ---------------------
