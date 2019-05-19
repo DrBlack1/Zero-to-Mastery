@@ -1,4 +1,4 @@
-//JS Brower Console
+//JS Brower Console Numbers
 3+4
 7
 

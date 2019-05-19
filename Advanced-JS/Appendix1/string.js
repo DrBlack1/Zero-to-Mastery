@@ -1,4 +1,4 @@
-//JS Brower Console 
+//JS Brower Console Stings
 "Bob"
 "Patrick"
 'Sally'
