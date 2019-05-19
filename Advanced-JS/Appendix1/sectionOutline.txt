@@ -60,11 +60,12 @@ forEach (new in ECMAScript 5)
 
 JAVASCRIPT KEYWORDS
 --------------------
-<!-- break
+break
 case
 catch
 class
-constcontinue
+const
+continue
 debugger
 default
 delete
@@ -75,4 +76,19 @@ extends
 finally
 for
 function
--->
+if
+import
+in
+instanceof
+new
+return
+super
+switchthis
+throw
+try 
+typeof
+var
+void
+while
+with
+yield
