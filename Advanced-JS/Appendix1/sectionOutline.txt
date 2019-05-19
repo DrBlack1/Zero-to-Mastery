@@ -17,6 +17,7 @@ JAVASCRIPT COMPARISONS
 >
 <
 
+
 JAVASCRIPT VARIABLES
 ---------------------
 var
