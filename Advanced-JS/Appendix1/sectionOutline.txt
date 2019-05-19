@@ -48,7 +48,7 @@ return
 JAVASCRIPT DATA STRUCTURES
 ---------------------------
 Array
-<!-- Object -->
+Object
 
 JAVASCRIPT LOOPING
 -------------------
