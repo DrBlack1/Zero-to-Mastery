@@ -67,4 +67,3 @@ wizard1.play = function() {
 wizard2.play = function() {
     console.log(`WEEEEEE I'm a ${this.type}`);
 }
-
