@@ -6,6 +6,7 @@
     "braces": "^3.0.2",
     "deep-extend": "^0.6.0",
     "js-yaml": "^3.13.1",
+    "querystringify": "^2.1.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-particles-js": "^2.1.0",
