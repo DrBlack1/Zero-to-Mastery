@@ -6,6 +6,7 @@
     "braces": "^3.0.2",
     "clean-css": "^4.2.1",
     "diff": "^4.0.1",
+    "eslint": "^5.16.0",
     "handlebars": "^4.1.2",
     "js-yaml": "^3.13.1",
     "macaddress": "^0.2.9",
